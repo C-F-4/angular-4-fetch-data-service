@@ -17,7 +17,7 @@ export class AppComponent {
   fetchData(){
     this._fetchJsonService.getData().subscribe(data => {
       this.jsonData = data;
-      console.log(this.jsonData);
+      console.log("Data Fetched");
     });
   }
 }

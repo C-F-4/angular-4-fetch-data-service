@@ -1,1 +1,12 @@
 <button (click)="this.fetchData()">Call API Service</button>
+<table ngShow="this.jsonData && this.jsonData.contacts">
+    <thead>
+        <tr>
+            <th *ngFor="let key of Object.keys(this.jsonData.contacts[0])">{{key}}</th>
+        <tr>
+    </thead>
+    <tbody>
+        <tr>
+        </tr>
+    </tbody>
+</table>
