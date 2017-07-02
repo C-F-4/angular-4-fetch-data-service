@@ -1,9 +1,6 @@
-# angular-4-fetch-data-service
-A service to parse and fetch JSON data in angular 4 and show it to user
+# Angular 4 based Fetch Data Service Example
 
-# JsonFetchApi
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
+A service to parse and fetch JSON data in angular 4 and then display the fetched Object as a Data Table.
 
 ## Development server
 
