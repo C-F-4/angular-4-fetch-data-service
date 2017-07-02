@@ -11,6 +11,7 @@ import { Data } from './data';
 export class AppComponent {
   private jsonData: Data;
   constructor(private _fetchJsonService: FetchJsonService) {
+    this.jsonData = undefined;
   }
   ngOnInit() {
   }
@@ -18,6 +19,7 @@ export class AppComponent {
     this._fetchJsonService.getData().subscribe(data => {
       this.jsonData = data;
       console.log("Data Fetched");
+      console.log(JSON.stringify(this.jsonData));
     });
   }
 }
