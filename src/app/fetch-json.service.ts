@@ -6,7 +6,6 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class FetchJsonService {
   private baseUrl = "./assets/data.json";
-  private jsonData: Data;
 
   constructor(private http: Http) { }
   ngOnInit(){}

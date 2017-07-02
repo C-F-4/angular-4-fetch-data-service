@@ -9,7 +9,7 @@ import { Data } from './data';
 })
 
 export class AppComponent {
-  private jsonData: Data;
+  jsonData: Data;
   constructor(private _fetchJsonService: FetchJsonService) {
     this.jsonData = undefined;
   }
